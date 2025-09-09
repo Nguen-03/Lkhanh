@@ -1,0 +1,22 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.gift_box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 20%;
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
+
+#gift{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 80%;
+    width: 100%;
+}
