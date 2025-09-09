@@ -84,7 +84,7 @@ var picture = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg"];
 function spawn() {
     for (let i = 1; i <= Math.floor(Math.random() * 4); ++i){
         const img = document.createElement("img");
-        img.src = "/picture/" + picture[Math.floor(Math.random() * picture.length)];
+        img.src =  picture[Math.floor(Math.random() * picture.length)];
         img.className = "enemy";
 
         let lheight = Math.floor(Math.random() * 40) + 30 ;
